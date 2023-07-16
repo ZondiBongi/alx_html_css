@@ -1,0 +1,59 @@
+body
+{
+    border: 3px solid black;
+    height: 100vh; 
+    padding: 10px;
+}
+
+header
+{
+    border: 1px solid black;
+    height:50px;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+div
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding:2px;
+}
+
+header div div
+{
+    border: 1px solid black;
+    width:250px;
+    border-radius: 5px;
+    display:block;
+    justify-content: space-between
+}
+
+.school-logo
+{
+    border: 1px solid red;
+    padding:2px;
+}
+.school-logo a
+{
+    border: 1px solid green;
+    width:inherit;
+    display:block;
+    justify-content: center;
+}
+/*.nav-link
+{
+   border:1px solid black;
+   padding:2px;
+}
+*/
+.nav-link a
+{
+    border:1px solid red;
+    width:inherit;
+    display:block;
+    justify-content: center;
+}
