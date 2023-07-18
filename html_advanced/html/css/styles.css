@@ -7,53 +7,146 @@ body
 
 header
 {
-    border: 1px solid black;
-    height:50px;
-    padding:5px;
-    display:flex;
-    justify-content: space-between;
+    border: 2px solid black;
+    height: 100px;
+    padding: 5px;
 
 }
 
-div
+header div
 {
     border: 1px solid black;
     display: flex;
+    padding: 10px;
     justify-content: space-between;
-    padding:2px;
 }
 
-header div div
-{
-    border: 1px solid black;
-    width:250px;
-    border-radius: 5px;
-    display:block;
-    justify-content: space-between
-}
 
 .school-logo
 {
     border: 1px solid red;
-    padding:2px;
+    width:250px;
+    border-radius: 5px;
+
 }
+
 .school-logo a
 {
     border: 1px solid green;
-    width:inherit;
-    display:block;
+    width: inherit;
+    display: flex;
     justify-content: center;
 }
-/*.nav-link
+
+
+#nav-links 
 {
-   border:1px solid black;
-   padding:2px;
+   width: 400px;
+   padding: 0;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   
 }
-*/
-.nav-link a
+
+#nav-links a
 {
     border:1px solid red;
     width:inherit;
-    display:block;
+    display:flex;
     justify-content: center;
+    align-items: center;
+}
+
+main
+{
+    border: 2px solid black;
+    height: inherit;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main section
+{
+    border:1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#banner div
+{
+    border: 1px solid black;
+    width: 20%;
+    padding: 0;
+    height: 100px;
+
+}
+
+#banner div h1
+{
+    border: 1px solid blue;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    gap: 2px;
+}
+
+#banner div p
+{
+    border: 1px solid purple;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+#banner div button
+{
+    border: 1px solid orange;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+}
+
+#banner div div
+{
+    border:1px solid black;
+    width: 70%;
+    padding: 0;
+    height: 100px;
+    
+}
+
+#banner div div h1 
+{
+    border: 1px solid blue;
+    text-align: center;
+}
+
+#banner div div span
+{
+    border: 1px solid green;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+#banner div div h2
+{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+
+}
+
+#banner div div p
+{
+    border: 1px solid purple;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+
+
 }
